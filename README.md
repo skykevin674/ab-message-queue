@@ -32,6 +32,8 @@ export class MessageTestTsComponent implements OnInit {
 
 如果component需要处理消息，则需要在onInit方法中绑定该实例，并注册消息处理函数
 
+注册类型可接受多个类型，以英文,分隔
+
 ```
 ngOnInit() {
   this.mqs.bind(this);
