@@ -1,0 +1,21 @@
+{
+  "name": "ab-message-queue",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/ab-message-queue.umd.js",
+  "module": "fesm5/ab-message-queue.js",
+  "es2015": "fesm2015/ab-message-queue.js",
+  "esm5": "esm5/ab-message-queue.js",
+  "esm2015": "esm2015/ab-message-queue.js",
+  "fesm5": "fesm5/ab-message-queue.js",
+  "fesm2015": "fesm2015/ab-message-queue.js",
+  "typings": "ab-message-queue.d.ts",
+  "metadata": "ab-message-queue.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
